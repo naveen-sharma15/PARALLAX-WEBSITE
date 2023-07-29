@@ -1,0 +1,108 @@
+html,body{
+    margin: 0;
+   height: 100%;
+   font-size: 16px;
+   line-height: 1.8em;
+   font-family:  sans-serif;
+   font-weight: 400;
+   color: #666;
+   box-sizing: border-box;
+  
+
+}
+.bimg0,.bimg1,.bimg2,.bimg3{
+
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    
+    
+
+}
+.bimg0{
+    background-image:url(car0-min-min.jpg);
+    min-height: 100%;
+    
+  
+}
+.bimg1{
+    background-image: url(car1-min-min.jpg);
+    min-height: 100%;
+   
+}
+.bimg2{
+    background-image: url(car2-min-min.jpg);
+    min-height: 100%;
+  
+    
+}
+.bimg3{
+    background-image: url(car3-min-min.jpg);
+    min-height: 100%;
+   
+}
+.Dtext{
+    position:absolute;
+    top:30%;
+    font-size: 27px;
+    color: black;
+    width: 100%;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    text-align: center;
+   opacity: 30%;
+   
+}
+.Dtext:hover{
+    opacity:100;
+    
+
+}
+.btext{
+    background-color:white;
+    color: #313534;
+    padding: 20px;
+    border-radius: 40px;
+}
+.Mtext{
+    background-color: white;
+    color: #313534;
+    padding: 20px;
+    border-radius:40px ;
+    top:20%;
+}
+.MCtext{
+    position:absolute;
+    top:15%;
+    font-size: 27px;
+    color: black;
+    width: 100%;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+   text-align: center;
+   opacity: 30%;
+}
+.MCtext:hover{
+    opacity: 100%;
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+.section-light{
+    background-color:#f4f4f4;
+    color: #666;
+}
+.section-dark{
+    background-color: #313534;
+    color: #f4f4f4;
+    
+}
+.section-mus{
+    background-color: #313534;
+    color: #f4f4f4;
+}
